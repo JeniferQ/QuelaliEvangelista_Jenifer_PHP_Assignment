@@ -6,6 +6,8 @@ require_once('includes/connect.php');
 $query = 'SELECT * FROM employees, jobs WHERE job_id = jobs.id AND employees.id ='.$_GET['id'];
 
 $results = mysqli_query($connect, $query);
+
+$row = mysqli_fetch_assoc($results);
 ?>
 
 <head>
