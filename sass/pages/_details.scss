@@ -1,0 +1,37 @@
+@use '../abstracts/variables' as v;
+
+.employee-info {
+    margin-top: 30px;
+}
+
+.person {
+    width: 100%;
+    max-width: 300px;
+    justify-self: center;
+    border: 3px solid black;
+}
+
+.employee-text {
+    h3 {
+        margin: 20px 0 10px 0;
+    }
+    
+    p {
+        margin-bottom: 30px;
+    }
+
+    .box {
+        background-color: #e98f10;
+    }    
+}
+
+.arrow {
+    color: white;
+    font-size: 20pt;
+    font-weight: 300;
+
+    img {
+        width: 40px;
+    margin-right: 20px;
+    }
+}

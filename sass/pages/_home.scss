@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as v;
+
+
+.employee-section {
+    padding: 20px 0;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

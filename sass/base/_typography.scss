@@ -1,0 +1,21 @@
+@use '../abstracts/variables' as v;
+
+body {
+    color: black;
+    font-family: v.$body-font-family;
+}
+
+h1 {
+    font-size: 25pt;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 20pt;
+    font-weight: 200;
+}
+
+h3, p {
+    font-size: 16pt;
+    font-weight: 200;
+}
