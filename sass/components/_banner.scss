@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as v;
+
+.banner {
+    max-height: 400px;
+    background-color: #ebd426;
+    align-content: center;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        padding-left: 20px;
+        align-self: center;
+    }
+}
